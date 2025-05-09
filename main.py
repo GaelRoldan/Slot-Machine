@@ -1,7 +1,7 @@
 import random
 
 MAX_LINES = 3
-MAX_BET = 100
+MAX_BET = 5000
 MIN_BET = 1
 
 ROWS = 3
@@ -100,7 +100,7 @@ def get_bet():
             if MIN_BET <= bet <= MAX_BET:
                 break
             else:
-                print(f"Please enter a value between ${MIN_BET} and ${MAX_LINES}.")
+                print(f"Please enter a value between ${MIN_BET} and ${MAX_BET}.")
         else:
             print("Please enter a numeric value.")
     return bet
