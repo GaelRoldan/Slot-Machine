@@ -1,0 +1,22 @@
+# Entorno virtual
+.venv/
+
+# Configuración de PyCharm
+.idea/
+
+# Archivos generados por PyInstaller
+build/
+dist/
+*.spec
+
+# Archivos y carpetas temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
